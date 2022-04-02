@@ -1,0 +1,23 @@
+body {
+    background-color: #71DFE7;
+}
+
+hr {
+    border-style: none;
+    border-top: 20px dotted black;
+    width: 10%;
+}
+
+h1,
+h2,
+h3 {
+    color: white;
+}
+
+h1:hover,
+h2:hover,
+h3:hover {
+    color: #DE8971;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}

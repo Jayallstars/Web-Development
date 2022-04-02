@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Denk+One&family=M+PLUS+1+Code:wght@300&family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Otomanopee+One&family=Ubuntu&display=swap');
+body {
+    margin: 0;
+    text-align: center;
+}
+
+hr {
+    width: 2%;
+    border-top: 5px dotted black;
+    margin: 50px auto;
+}
+
+h1 {
+    font-family: 'Denk One', sans-serif;
+    font-size: 4.375rem;
+    color: #11999E
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.875rem;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 1.25rem;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+a:hover {
+    color: black;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    line-height: 1.8;
+}
+
+.top-container {
+    background-color: rgb(208, 255, 231);
+    position: relative;
+    padding-top: 150px
+}
+
+.bottom-container {
+    background-color: rgb(208, 255, 231);
+    padding: 50px 0 20px;
+}
+
+.contact-me {
+    margin: 50px;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 100px;
+    right: 300px
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.profile-picture {
+    margin-top: 100px;
+    height: 200px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.first-image {
+    margin-right: 50px;
+    border-radius: 50%;
+    width: 25%;
+    float: left;
+}
+
+.second-image {
+    margin-left: 50px;
+    border-radius: 50%;
+    width: 25%;
+    float: right;
+}
+
+.btn {
+    margin-left: 0;
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #11999E, #1f6163);
+    background-image: -moz-linear-gradient(top, #11999E, #1f6163);
+    background-image: -ms-linear-gradient(top, #11999E, #1f6163);
+    background-image: -o-linear-gradient(top, #11999E, #1f6163);
+    background-image: linear-gradient(to bottom, #11999E, #1f6163);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.btn:hover {
+    background: rgb(208, 255, 231);
+    background-image: -webkit-linear-gradient(top, rgb(208, 255, 231), rgb(208, 255, 231));
+    background-image: -moz-linear-gradient(top, rgb(208, 255, 231), rgb(208, 255, 231));
+    background-image: -ms-linear-gradient(top, rgb(208, 255, 231), rgb(208, 255, 231));
+    background-image: -o-linear-gradient(top, rgb(208, 255, 231), rgb(208, 255, 231));
+    background-image: linear-gradient(to bottom, rgb(208, 255, 231), rgb(208, 255, 231));
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.para {
+    margin-bottom: 30px;
+}
